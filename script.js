@@ -40,4 +40,4 @@ if (answer3 == correctAnswer3) {
 const percent = Math.round((correctAnswer/totalQuestions) * 100)
 
 console.log("You got", correctAnswer, "questions correct");
-console.log("You scored",percent, "percent");
+console.log("You scored",percent.toString + "%");
