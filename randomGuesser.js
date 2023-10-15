@@ -8,6 +8,8 @@ let guesses = 0;
 // understand while loop.
 
 while (true){
+guesses++;
+   
 const guess = Number (prompt("Guess the number (0-100): "));
 // understand conditional statement.....
 if (guess > target ) {
