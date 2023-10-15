@@ -9,16 +9,18 @@ let guesses = 0;
 
 while (true){
 guesses++;
-   
+
 const guess = Number (prompt("Guess the number (0-100): "));
 // understand conditional statement.....
 if (guess > target ) {
     console.log("Your guess is too high.");
+    continue;
 } else if (guess<target){
     console.log("Your guess is too low.");
+    continue;
 } else{
     console.log ("You guessed it!")
-    break
+    break;
     // break is used to terminate the code....
 }
 }
