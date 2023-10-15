@@ -4,7 +4,7 @@ const target = 10 + Math.round (Math.random() *90);
 
 let guesses = 0;
 console.log(target)
-// understand while loop
+// understand while loop.
 
 while (true){
 const guess = Number (prompt("Guess the number (0-100): "));
