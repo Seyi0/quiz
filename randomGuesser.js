@@ -1,9 +1,10 @@
 const prompt = require("prompt-sync")();
 
-const target = 10 + Math.round (Math.random() *90);
+const target = Math.round (Math.random() *100);
 
 let guesses = 0;
-console.log(target)
+
+// console.log(target)
 // understand while loop.
 
 while (true){
@@ -19,3 +20,5 @@ if (guess > target ) {
     // break is used to terminate the code....
 }
 }
+
+console.log("You guessed the number in", guesses,"tries!");
